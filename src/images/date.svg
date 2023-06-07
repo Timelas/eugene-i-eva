@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.51 317.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-3 {
+        fill: #231f20;
+        font-family: Gotham-Thin, Gotham;
+        font-size: 65px;
+        font-weight: 200;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <line class="cls-1" x1="114.01" x2="114.01" y2="314.82"/>
+    <text class="cls-3" transform="translate(21.13 145.83)"><tspan x="0" y="0">23</tspan><tspan class="cls-2" x="-3.05" y="78">0</tspan><tspan x="40.17" y="78">7</tspan><tspan x="0" y="156">23</tspan></text>
+  </g>
+</svg>

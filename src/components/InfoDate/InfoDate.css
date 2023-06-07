@@ -1,0 +1,133 @@
+.info-date {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #eaeaea;
+}
+
+.info-date__invitation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 0 100px;
+}
+
+.info-date__who {
+  width: 600px;
+  object-fit: contain;
+  margin: 150px 0 0;
+}
+
+.info-date__text {
+  font-size: 38px;
+  line-height: 50px;
+  margin: 0;
+  width: 55%;
+}
+
+.info-date__wedding {
+  width: 700px;
+}
+
+.info-date__line {
+  width: 100px;
+  height: .75px;
+  background-color: #231f20;
+  display: none;
+}
+
+
+@media screen and (max-width: 1700px) {
+  .info-date__invitation {
+    padding: 0 0 70px;
+  }
+
+  .info-date__who {
+    width: 350px;
+    margin: 100px 0 0;
+  }
+  
+  .info-date__text {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0;
+  }
+
+  .info-date__wedding {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .info-date {
+    height: 100%;
+  }
+
+  .info-date__invitation {
+    gap: 40px;
+  }
+
+  .info-date__who {
+    width: 300px;
+  }
+
+  .info-date__wedding {
+    width: 300px;
+  }
+
+  .info-date__text {
+    font-size: 18px;
+    line-height: 26px;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .info-date__invitation {
+    padding: 0 0 50px;
+  }
+
+  .info-date__who {
+    width: 270px;
+    margin: 90px 0 0;
+  }
+
+  .info-date__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .info-date__wedding {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .info-date {
+    background-color: #fff;
+  }
+
+  .info-date__who {
+    width: 250px;
+    margin: 70px 0 0;
+  }
+
+  .info-date__line {
+    display: block;
+  }
+
+  .info-date__text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 80%;
+  }
+
+  .info-date__wedding {
+    width: 230px;
+  }
+}
