@@ -49,7 +49,7 @@ function Questions() {
                 <span className="question__text-span">Белое вино</span>
               </label>
               <label htmlFor="redwine" className="question__label">
-                <input className="question__unvisible" type="checkbox" name="красное вино" value="красное вино" id="redwine"></input>
+                <input className="question__unvisible" type="checkbox" name="Красное вино" value="Красное вино" id="redwine"></input>
                 <span className="question__visible-checkbox"></span>
                 <span className="question__text-span">Красное вино</span>
               </label>
@@ -75,7 +75,7 @@ function Questions() {
         :
         <div>
           <img src={question} alt="опрос" className="question__header"></ img>
-          <p className="question__text">Форма отправлена!</p>
+          <p className="question__answer">Форма отправлена!</p>
         </div>
         }
       </div>
