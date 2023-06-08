@@ -15,8 +15,7 @@ function InfoDate() {
         <img className="info-date__wedding" alt="свадебный день" src={wedding}></img>
         <p className="info-date__text">СБОР ГОСТЕЙ В 15:30</p>
         <p className="info-date__text">Ресторан Летний Дворец
-          <br />Санкт-Петербургское шоссе 130к7
-          <br />16:00</p>
+          <br />Санкт-Петербургское шоссе 130к7</p>
       </div>
       <div className="info-date__line"></div>
     </section>

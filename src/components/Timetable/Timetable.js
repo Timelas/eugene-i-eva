@@ -1,7 +1,7 @@
 import React from "react";
 import "./Timetable.css";
 import rings from "../../images/rings.svg";
-import glasses from "../../images/legsgo.svg";
+import glasses from "../../images/glasses.svg";
 import plate from "../../images/plate.svg";
 import cake from "../../images/cake.svg";
 import music from "../../images/music.svg";
@@ -29,7 +29,7 @@ function Timetable() {
         <img className="timetable__line timetable__line_center_music" src={lineCenter} alt="линия"></img>
         <img className="timetable__line-start" src={lineStart} alt="линия"></img>
         <img className="timetable__line-end" src={lineEnd} alt="линия"></img>
-        <p className="timetable__text timetable__text_about_rings">Сбор гостей<br />15.30</p>
+        <p className="timetable__text timetable__text_about_rings">Свадебный фуршет<br />15.30</p>
         <p className="timetable__text timetable__text_about_glasses">Церемония бракосочетания<br />16.00</p>
         <p className="timetable__text timetable__text_about_plate">Праздничный банкет <br /> 17.00</p>
         <p className="timetable__text timetable__text_about_cake">Свадебный торт <br /> 21.30</p>
