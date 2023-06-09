@@ -61,7 +61,7 @@ function Rsvp() {
       { isFormVisible ?
       <div className="rsvp__container">
         <p className="rsvp__text">Пожалуйста, подтвердите ваше присутствие на нашем празднике до
-        01&#8239;июля&#8239;2023 года любым удобным для вас способом или заполните форму ниже:
+        22&#8239;июня&#8239;2023 года любым удобным для вас способом или заполните форму ниже:
         </p>
         <form className="rsvp__form" ref={formRef} name="rsvp" id="rsvp" onSubmit={isSubmitChange ? handleSubmitYes : handleSubmitNo}>
           <p className="rsvp__string">

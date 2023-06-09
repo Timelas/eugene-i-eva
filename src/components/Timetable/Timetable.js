@@ -34,7 +34,7 @@ function Timetable() {
         <p className="timetable__text timetable__text_about_plate">Праздничный банкет <br /> 17.00</p>
         <p className="timetable__text timetable__text_about_cake">Свадебный торт <br /> 21.30</p>
         <p className="timetable__text timetable__text_about_music">Танцы <br /> 22.00</p>
-        <p className="timetable__text timetable__text_about_car">Завершение вечера 0.00</p>
+        <p className="timetable__text timetable__text_about_car">Завершение вечера 00.00</p>
       </div>
       <div className="timetable__lines"></div>
     </section>
